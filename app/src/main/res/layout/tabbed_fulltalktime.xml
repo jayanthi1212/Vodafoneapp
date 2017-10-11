@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="50dp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingBottom="100dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cardView3">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:text="Best seller"
+            android:layout_marginTop="10dp"
+
+            android:textAlignment="center"/>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/kkk"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="45dp" />
+
+                    <TextView
+                        android:layout_width="240dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Rs 33 Talktime in core balance and 300 Local Night V2V seconds,TT valid for lifetime and Seconds valid fro.."
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp" />
+
+
+                </LinearLayout>
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"
+                    android:layout_marginTop="65dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="#F5F5F5"
+                    android:layout_marginTop="65dp">
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="21dp"
+                        android:text=" ₹333"
+                        android:textColor="#99ccff"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/textView18"
+                        android:layout_marginTop="30dp"
+                        android:text="0days" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="24dp"
+                        app:srcCompat="@drawable/info2"
+                        android:layout_alignBottom="@+id/textView20"
+                        android:layout_toStartOf="@+id/button2" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:text="BUY"
+                        android:textColor="#FFF"
+                        android:background="@drawable/jjj"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="23dp" />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="159dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/kkkk"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="45dp" />
+
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Rs.500 Full Talktime,Lifetime validity"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp" />
+
+
+                </LinearLayout>
+                <View
+                    android:id="@+id/view7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"
+                    android:layout_marginTop="55dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#F5F5F5"
+                    android:layout_marginTop="58dp">
+
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="21dp"
+                        android:text=" ₹500"
+                        android:textColor="#99ccff"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/textView8"
+                        android:layout_marginTop="30dp"
+                        android:text="0days" />
+
+                    <ImageView
+                        android:id="@+id/imageView95"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="24dp"
+                        app:srcCompat="@drawable/info2"
+                        android:layout_alignBottom="@+id/textView40"
+                        android:layout_toStartOf="@+id/button9" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:text="BUY"
+                        android:textColor="#FFF"
+                        android:background="@drawable/jjj"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="23dp" />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/kkkkr"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="45dp" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:text="90 MB free 3G data"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp" />
+
+
+                </LinearLayout>
+                <View
+                    android:id="@+id/view87"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#c0c0c0"
+                    android:layout_marginTop="55dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#F5F5F5"
+                    android:layout_marginTop="58dp">
+
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="21dp"
+                        android:text=" ₹27"
+                        android:textColor="#99ccff"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textView400"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/textView88"
+                        android:layout_marginTop="30dp"
+                        android:text="28days" />
+
+                    <ImageView
+                        android:id="@+id/imageView905"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="24dp"
+                        app:srcCompat="@drawable/info2"
+                        android:layout_alignBottom="@+id/textView400"
+                        android:layout_toStartOf="@+id/button99" />
+
+                    <Button
+                        android:id="@+id/button99"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:text="BUY"
+                        android:textColor="#FFF"
+                        android:background="@drawable/jjj"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="23dp" />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+

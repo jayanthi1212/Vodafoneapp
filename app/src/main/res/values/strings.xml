@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name"><b>Vodafone</b></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">second</string>
+    <string name="title_activity_login">login</string>
+    <string name="time_pick">Pay Bill or Recharge for friends family</string>
+    <string name="title_activity_contactus">Contactus</string>
+    <string name="title_activity_web">web</string>
+    <string name="title_activity_open">open</string>
+    <string name="title_activity_shop">Shop</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_zozoz">zozoz</string>
+    <string name="title_activity_zoo">zoo</string>
+    <string name="go"><u>terms and conditions</u></string>
+    <string name="ho"><b>Vodafone</b></string>
+</resources>

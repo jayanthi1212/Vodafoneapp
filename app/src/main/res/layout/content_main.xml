@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ench.jaya.vodafoneapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/doo"
+            android:layout_marginRight="300dp"/>
+            
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+      android:background="@drawable/zing"
+        />
+    <!--<ScrollView-->
+        <!--android:id="@+id/ScrollView01"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+      <!--&gt;-->
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:background="#696969"
+
+        android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/net"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/vodo" />
+<LinearLayout
+    android:layout_width="210dp"
+    android:layout_height="110dp"
+    android:layout_marginLeft="50dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="MyVodafone App"
+        android:textSize="16dp" />
+
+    <TextView
+            android:id="@+id/textView4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convenient and cool way of managing your vodofone acoount" />
+</LinearLayout>
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="115dp"
+            android:layout_height="45dp">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/gify"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="190dp"
+                android:layout_height="35dp"
+              android:layout_marginLeft="28dp"
+                android:textColor="#F00"
+
+                android:textStyle="bold"
+                android:text="Special offers await you with  My Vodafone!" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:text="open"
+   android:background="@drawable/hhh"
+            android:textColor="#fff"
+
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="59dp"/>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="350dp"
+            android:background="#DCDCDC"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+
+            <ImageView
+                android:id="@+id/imageVi"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/vodo" />
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textVie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000"
+                    android:text="Vodaphone M-Pesa"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/ply"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch 150+ live TV,unlimited movies,music TV shows " />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/vie4"
+                android:layout_width="250dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="10dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="100dp" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="100dp"
+                android:layout_height="35dp">
+
+
+                <ImageView
+                    android:id="@+id/iam"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/gift"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:id="@+id/tet"
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+
+                    android:text="400MB free  on first download" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="65dp"
+                android:layout_height="35dp"
+                android:text="Install"
+       android:background="@drawable/hhh"
+
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="40dp"/>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#e4e1e1"
+            android:layout_marginTop="190dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/pla" />
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000"
+                    android:text="My Vodaphone Play"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/play"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch 150+ live TV,unlimited movies,music TV shows " />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="250dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="10dp"
+
+                android:background="#c0c0c0c0"
+                android:layout_marginTop="95dp" />
+
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="100dp"
+                android:layout_height="35dp">
+
+
+                <ImageView
+                    android:id="@+id/ia"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/gift"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:id="@+id/te"
+                    android:layout_width="220dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:text="400MB free  on first download!" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="65dp"
+                android:layout_height="35dp"
+                android:text="Install"
+                android:textColor="#fff"
+             android:background="@drawable/hhh"
+
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="50dp"/>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
